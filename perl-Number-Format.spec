@@ -4,8 +4,8 @@
 Summary:	Number::Format perl module
 Summary(pl):	Modu³ perla Number::Format
 Name:		perl-Number-Format
-Version:	1.42
-Release:	6
+Version:	1.44
+Release:	1
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.cpan.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
