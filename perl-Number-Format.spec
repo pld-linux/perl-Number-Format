@@ -3,8 +3,8 @@
 %bcond_with	tests	# perform "make test" (uses network!)
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Number
-%define	pnam	Format
+%define		pdir	Number
+%define		pnam	Format
 Summary:	Number::Format - Perl extension for formatting numbers
 Summary(pl):	Number::Format - modu³ do formatowania liczb
 Name:		perl-Number-Format
