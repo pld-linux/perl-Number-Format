@@ -1,12 +1,11 @@
+%include	/usr/lib/rpm/macros.perl
 %define	pdir	Number
 %define	pnam	Format
-%include	/usr/lib/rpm/macros.perl
 Summary:	Number-Format perl module
 Summary(pl):	Modu³ perla Number-Format
 Name:		perl-Number-Format
 Version:	1.42
-Release:	5
-
+Release:	6
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -22,7 +21,7 @@ Number-Format - Perl extension for formatting numbers.
 Number-Format - modu³ do formatowania liczb.
 
 %prep
-%setup -q -n Number-Format-%{version}
+%setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
 perl Makefile.PL
