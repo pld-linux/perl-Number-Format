@@ -3,7 +3,7 @@ Summary:	Number-Format perl module
 Summary(pl):	Modu³ perla Number-Format
 Name:		perl-Number-Format
 Version:	1.42
-Release:	2
+Release:	3
 License:	GPL
 Group:		Development/Languages/Perl
 Group(de):	Entwicklung/Sprachen/Perl
