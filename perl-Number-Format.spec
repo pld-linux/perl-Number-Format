@@ -5,7 +5,7 @@ Summary:	Number::Format - Perl extension for formatting numbers
 Summary(pl):	Number::Format - modu³ do formatowania liczb
 Name:		perl-Number-Format
 Version:	1.45
-Release:	1
+Release:	2
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
