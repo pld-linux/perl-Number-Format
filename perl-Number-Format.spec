@@ -1,8 +1,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Number
 %define	pnam	Format
-Summary:	Number-Format perl module
-Summary(pl):	Modu³ perla Number-Format
+Summary:	Number::Format perl module
+Summary(pl):	Modu³ perla Number::Format
 Name:		perl-Number-Format
 Version:	1.42
 Release:	6
@@ -15,10 +15,10 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Number-Format - Perl extension for formatting numbers.
+Number::Format - Perl extension for formatting numbers.
 
 %description -l pl
-Number-Format - modu³ do formatowania liczb.
+Number::Format - modu³ do formatowania liczb.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
