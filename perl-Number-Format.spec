@@ -6,7 +6,7 @@
 %define		pdir	Number
 %define		pnam	Format
 Summary:	Number::Format - Perl extension for formatting numbers
-Summary(pl):	Number::Format - modu³ do formatowania liczb
+Summary(pl.UTF-8):   Number::Format - moduÅ‚ do formatowania liczb
 Name:		perl-Number-Format
 Version:	1.51
 Release:	0.1
@@ -29,15 +29,15 @@ point.  The characters used for the decimal point and the thousands
 separator come from the locale information or can be specified by
 the user.
 
-%description -l pl
-Number::Format jest bibliotek±, s³u¿±c± do formatowania liczb.
-Dostarcza funkcji do konwersji liczb na ci±gi znaków w ró¿ny sposób,
-oraz do konwersji ci±gów zawieraj±cych liczby z powrotem na ich postaæ
-numeryczn±.  Formaty wynikowe mog± zawieraæ separatory tysiêczne --
-znaki, wstawiane pomiêdzy ka¿d± grupê trzech znaków licz±c od prawej do
-lewej od kropki dziesiêtnej.  Znaki, u¿ywane jako kropka dziesiêtna i
-separator tysiêczny pochodz± z informacji o locale; mog± te¿ byæ podane
-przez u¿ytkownika.
+%description -l pl.UTF-8
+Number::Format jest bibliotekÄ…, sÅ‚uÅ¼Ä…cÄ… do formatowania liczb.
+Dostarcza funkcji do konwersji liczb na ciÄ…gi znakÃ³w w rÃ³Å¼ny sposÃ³b,
+oraz do konwersji ciÄ…gÃ³w zawierajÄ…cych liczby z powrotem na ich postaÄ‡
+numerycznÄ….  Formaty wynikowe mogÄ… zawieraÄ‡ separatory tysiÄ™czne --
+znaki, wstawiane pomiÄ™dzy kaÅ¼dÄ… grupÄ™ trzech znakÃ³w liczÄ…c od prawej do
+lewej od kropki dziesiÄ™tnej.  Znaki, uÅ¼ywane jako kropka dziesiÄ™tna i
+separator tysiÄ™czny pochodzÄ… z informacji o locale; mogÄ… teÅ¼ byÄ‡ podane
+przez uÅ¼ytkownika.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
