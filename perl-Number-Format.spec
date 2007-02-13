@@ -6,7 +6,7 @@
 %define		pdir	Number
 %define		pnam	Format
 Summary:	Number::Format - Perl extension for formatting numbers
-Summary(pl.UTF-8):   Number::Format - moduł do formatowania liczb
+Summary(pl.UTF-8):	Number::Format - moduł do formatowania liczb
 Name:		perl-Number-Format
 Version:	1.51
 Release:	0.1
