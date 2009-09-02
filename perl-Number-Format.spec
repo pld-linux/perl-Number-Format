@@ -1,19 +1,21 @@
 #
 # Conditional build:
-%bcond_with	tests	# perform "make test" (uses network!)
+%bcond_without	tests		# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
 %define		pdir	Number
 %define		pnam	Format
+%define		major_ver	1.72
+%define		minor_ver	a
 Summary:	Number::Format - Perl extension for formatting numbers
 Summary(pl.UTF-8):	Number::Format - moduł do formatowania liczb
 Name:		perl-Number-Format
-Version:	1.51
-Release:	0.1
-License:	Artistic
+Version:	%{major_ver}%{minor_ver}
+Release:	1
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	0191de22501fa4df10a58a400bd79977
+# Source0-md5:	03c5692dd75f6ca63e325ab9d3f16c7b
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
@@ -40,7 +42,7 @@ separator tysięczny pochodzą z informacji o locale; mogą też być podane
 przez użytkownika.
 
 %prep
-%setup -q -n %{pdir}-%{pnam}-%{version}
+%setup -q -n %{pdir}-%{pnam}-%{major_ver}
 
 %build
 %{__perl} Makefile.PL \
