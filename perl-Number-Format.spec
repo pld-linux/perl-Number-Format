@@ -5,8 +5,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define		pdir	Number
 %define		pnam	Format
-%define		major_ver	1.72
-%define		minor_ver	a
+%define		major_ver	1.73
+%define		minor_ver	%{nil}
 Summary:	Number::Format - Perl extension for formatting numbers
 Summary(pl.UTF-8):	Number::Format - moduł do formatowania liczb
 Name:		perl-Number-Format
@@ -15,7 +15,7 @@ Release:	1
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	03c5692dd75f6ca63e325ab9d3f16c7b
+# Source0-md5:	3a4188de6e84b04361def285b93dc240
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
