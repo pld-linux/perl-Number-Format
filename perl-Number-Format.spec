@@ -6,7 +6,6 @@
 %define		pnam	Format
 %define		major_ver	1.73
 %define		minor_ver	%{nil}
-%include	/usr/lib/rpm/macros.perl
 Summary:	Number::Format - Perl extension for formatting numbers
 Summary(pl.UTF-8):	Number::Format - moduł do formatowania liczb
 Name:		perl-Number-Format
